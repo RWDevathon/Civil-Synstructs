@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="ABF_Thing_Synstruct_Generator_MakeableBase">
+        <defName>ABF_Thing_Synstruct_SimpletonGenerator</defName>
+        <label>simpleton</label>
+        <description>Synstruct simpletons are widely derided by everyone who meets them. Every aspect of them is designed to be as minimalistic and simple as possible - and not in a good way. Other sapient synstructs are especially hostile toward sapient simpletons, seeing them as an insult to their kind. Simpletons are usually created only out of desperation or cruelty. Sapient simpletons often embrace the wretchedness of their existence and either seek to prove themselves equals to others or go on paths of wrathful vengeance against their creators.\n\nSynstruct simpletons may be formatted into the following types:\n - Drones\n - Reprogrammable drones\n - Sapients</description>
+        <graphicData>
+            <texPath>Things/Pawns/Humanlikes/Simpleton/SimpletonExemplar</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>ABF_ResearchProject_Synstruct_BasicCivil</researchPrerequisite>
+        </recipeMaker>
+        <costList>
+            <Steel>100</Steel>
+            <Plasteel>40</Plasteel>
+            <ABF_Thing_Synstruct_CoolantPack>1</ABF_Thing_Synstruct_CoolantPack>
+            <ABF_Thing_Synstruct_LubricantPack>1</ABF_Thing_Synstruct_LubricantPack>
+            <Gold>1</Gold>
+            <ComponentIndustrial>10</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+        </costList>
+        <comps>
+            <li Class="ArtificialBeings.CompProperties_PawnSpawner">
+                <pawnKind>ABF_PawnKind_Synstruct_Player_Simpleton_Blank_Base</pawnKind>
+                <hediffOnSpawn>ABF_Hediff_Artificial_Disabled</hediffOnSpawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ABF_Thing_Synstruct_Generator_MakeableBase">
+        <defName>ABF_Thing_Synstruct_CommonerGenerator</defName>
+        <label>commoner</label>
+        <description>Synstruct simpletons are widely derided by everyone who meets them. Every aspect of them is designed to be as minimalistic and simple as possible - and not in a good way. Other sapient synstructs are especially hostile toward sapient simpletons, seeing them as an insult to their kind. Simpletons are usually created only out of desperation or cruelty. Sapient simpletons often embrace the wretchedness of their existence and either seek to prove themselves equals to others or go on paths of wrathful vengeance against their creators.\n\nSynstruct simpletons may be formatted into the following types:\n - Drones\n - Reprogrammable drones\n - Sapients</description>
+        <graphicData>
+            <texPath>Things/Pawns/Humanlikes/Commoner/CommonerExemplar</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>ABF_ResearchProject_Synstruct_BasicCivil</researchPrerequisite>
+        </recipeMaker>
+        <costList>
+            <Steel>140</Steel>
+            <Plasteel>70</Plasteel>
+            <ABF_Thing_Synstruct_CoolantPack>1</ABF_Thing_Synstruct_CoolantPack>
+            <ABF_Thing_Synstruct_LubricantPack>1</ABF_Thing_Synstruct_LubricantPack>
+            <Gold>2</Gold>
+            <ComponentIndustrial>16</ComponentIndustrial>
+            <ComponentSpacer>4</ComponentSpacer>
+        </costList>
+        <comps>
+            <li Class="ArtificialBeings.CompProperties_PawnSpawner">
+                <pawnKind>ABF_PawnKind_Synstruct_Player_Commoner_Blank_Base</pawnKind>
+                <hediffOnSpawn>ABF_Hediff_Artificial_Disabled</hediffOnSpawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ABF_Thing_Synstruct_Generator_MakeableBase">
+        <defName>ABF_Thing_Synstruct_StoicGenerator</defName>
+        <label>stoic</label>
+        <description>Synstruct stoics are rugged and hardy individuals with a propensity for adopting an almost monastic and spiritual existence. They are much more difficult to be fazed by difficult situations, and express a general disdain toward styles of living that are too "comfortable."\n\nStoics will, roughly one every two years, enter a deep contemplative state akin to a coma. Each stoic experiences it differently, and each refuses to share what exactly it is like for them.\n\nSynstruct stoics may be formatted into the following types:\n - Sapients</description>
+        <graphicData>
+            <texPath>Things/Pawns/Humanlikes/Stoic/StoicExemplar</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>ABF_ResearchProject_Synstruct_BasicCivil</researchPrerequisite>
+        </recipeMaker>
+        <costList>
+            <Steel>140</Steel>
+            <Plasteel>70</Plasteel>
+            <ABF_Thing_Synstruct_CoolantPack>1</ABF_Thing_Synstruct_CoolantPack>
+            <ABF_Thing_Synstruct_LubricantPack>1</ABF_Thing_Synstruct_LubricantPack>
+            <Gold>2</Gold>
+            <ComponentIndustrial>16</ComponentIndustrial>
+            <ComponentSpacer>4</ComponentSpacer>
+        </costList>
+        <comps>
+            <li Class="ArtificialBeings.CompProperties_PawnSpawner">
+                <pawnKind>ABF_PawnKind_Synstruct_Player_Stoic_Blank_Base</pawnKind>
+                <hediffOnSpawn>ABF_Hediff_Artificial_Disabled</hediffOnSpawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ABF_Thing_Synstruct_Generator_MakeableBase">
+        <defName>ABF_Thing_Synstruct_SocialiteGenerator</defName>
+        <label>socialite</label>
+        <description>Synstruct socialites are gregarious and extroverted individuals who revel both in tightly knit groups and massive anonymous crowds. They are known for accumulating many friends and allies, and eagerly joining into rivalries if given the chance.\n\nSocialites have a strong personal desire to constantly undergo personal change, and regularly demand access to high end components to replace parts of themselves. Others often frown at their decadent waste.\n\nSynstruct socialites may be formatted into the following types:\n - Sapients</description>
+        <graphicData>
+            <texPath>Things/Pawns/Humanlikes/Socialite/SocialiteExemplar</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>ABF_ResearchProject_Synstruct_BasicCivil</researchPrerequisite>
+        </recipeMaker>
+        <costList>
+            <Steel>140</Steel>
+            <Plasteel>70</Plasteel>
+            <ABF_Thing_Synstruct_CoolantPack>1</ABF_Thing_Synstruct_CoolantPack>
+            <ABF_Thing_Synstruct_LubricantPack>1</ABF_Thing_Synstruct_LubricantPack>
+            <Gold>2</Gold>
+            <ComponentIndustrial>16</ComponentIndustrial>
+            <ComponentSpacer>4</ComponentSpacer>
+        </costList>
+        <comps>
+            <li Class="ArtificialBeings.CompProperties_PawnSpawner">
+                <pawnKind>ABF_PawnKind_Synstruct_Player_Socialite_Blank_Base</pawnKind>
+                <hediffOnSpawn>ABF_Hediff_Artificial_Disabled</hediffOnSpawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AlienRace.ThingDef_AlienRace ParentName="ABF_Thing_Synstruct_HumanlikeBase">
+		<defName>ABF_Thing_Synstruct_Simpleton</defName>
+		<label>synstruct simpleton</label>
+		<description>Synstruct simpletons are widely derided by everyone who meets them. Every aspect of them is designed to be as minimalistic and simple as possible - and not in a good way. Other sapient synstructs are especially hostile toward sapient simpletons, seeing them as an insult to their kind. Simpletons are usually created only out of desperation or cruelty. Sapient simpletons often embrace the wretchedness of their existence and either seek to prove themselves equals to others or go on paths of wrathful vengeance against their creators.\n\nSynstruct simpletons may be formatted into the following types:\n - Drones\n - Reprogrammable drones\n - Sapients</description>
+		<alienRace>
+			<graphicPaths> <!-- This may look silly, but there may one day be gendered graphics here. -->
+                <body>
+                    <path>Things/Pawns/Humanlikes/Simpleton/body/Naked_None</path>
+                    <genderGraphics>
+                        <Male>Things/Pawns/Humanlikes/Simpleton/body/Naked_None</Male>
+                        <Female>Things/Pawns/Humanlikes/Simpleton/body/Naked_None</Female>
+                    </genderGraphics>
+                </body>
+                <head>
+                    <path>Things/Pawns/Humanlikes/Simpleton/head/None</path>
+                    <genderGraphics>
+                        <Male>Things/Pawns/Humanlikes/Simpleton/head/None</Male>
+                        <Female>Things/Pawns/Humanlikes/Simpleton/head/None</Female>
+                    </genderGraphics>
+                </head>
+                <skinShader>Cutout</skinShader>
+                <apparel>
+                    <bodyTypeFallback>Male</bodyTypeFallback>
+                    <femaleBodyTypeFallback>Female</femaleBodyTypeFallback>
+                </apparel>
+            </graphicPaths>
+            <generalSettings>
+                <alienPartGenerator>
+					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
+                </alienPartGenerator>
+            </generalSettings>
+		</alienRace>
+		<statBases>
+			<MarketValue>1500</MarketValue>
+			<MoveSpeed>5.10</MoveSpeed>
+			<ComfyTemperatureMin>8</ComfyTemperatureMin>
+			<ComfyTemperatureMax>30</ComfyTemperatureMax>
+			<WorkSpeedGlobal>0.9</WorkSpeedGlobal>
+			<SocialImpact>0.9</SocialImpact>
+            <InjuryHealingFactor>0.66</InjuryHealingFactor>
+            <ABF_Stat_Artificial_ComplexityLimit>15</ABF_Stat_Artificial_ComplexityLimit>
+            <ABF_Stat_Artificial_SkillLimit>6</ABF_Stat_Artificial_SkillLimit>
+            <PawnBeauty>-2</PawnBeauty>
+			<Mass>60</Mass>
+		</statBases>
+		<tools>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>7</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>7</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>ABF_Body_Synstruct_Civil</body>
+			<baseHealthScale>0.6</baseHealthScale>
+			<baseHungerRate>0.9</baseHungerRate>
+			<baseBodySize>0.9</baseBodySize>
+		</race>
+        <recipes>
+            <li>ABF_Recipe_Synstruct_InjectCoolant</li>
+            <li>ABF_Recipe_Synstruct_InjectLubricant</li>
+        </recipes>
+        <comps>
+            <li>
+                <compClass>ArtificialBeings.CompCoherenceNeed</compClass>
+            </li>
+        </comps>
+		<modExtensions>
+            <li Class="ArtificialBeings.ABF_ArtificialPawnExtension">
+                <maxDirectives>2</maxDirectives>
+                <droneSkillLevel>3</droneSkillLevel>
+                <blacklistedNeeds>
+                    <li>DrugDesire</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Hygiene</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
+                    <li>RoomSize</li>
+                    <li>Comfort</li>
+                </blacklistedNeeds>
+                <blacklistedDroneNeeds>
+                    <li>Mood</li>
+                    <li>Joy</li>
+                    <li>Outdoors</li>
+                    <li>Indoors</li>
+                    <li>Beauty</li>
+                </blacklistedDroneNeeds>
+                <artificialNeeds>
+                    <li><key>ABF_Need_Synstruct_Coolant</key><value>0.5</value></li>
+                    <li><key>ABF_Need_Synstruct_Lubricant</key><value>0.5</value></li>
+                </artificialNeeds>
+                <medicineList>
+                    <li>ABF_Thing_Synstruct_RepairStimMinor</li>
+                    <li>ABF_Thing_Synstruct_RepairStim</li>
+                    <li>ABF_Thing_Synstruct_RepairStimUltra</li>
+                </medicineList>
+                <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
+                <hediffReplacements>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
+                </hediffReplacements>
+            </li>
+            <li Class="ArtificialBeings.ABF_SynstructExtension">
+                <playerDronePawnKindDef>ABF_PawnKind_Synstruct_Player_Simpleton_Drone_Base</playerDronePawnKindDef>
+                <playerReprogrammableDronePawnKindDef>ABF_PawnKind_Synstruct_Player_Simpleton_Reprogrammable_Base</playerReprogrammableDronePawnKindDef>
+                <playerSapientPawnKindDef>ABF_PawnKind_Synstruct_Player_Simpleton_Sapient_Base</playerSapientPawnKindDef>
+            </li>
+		</modExtensions>
+		<butcherProducts>
+            <Steel>40</Steel>
+			<Plasteel>20</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</butcherProducts>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

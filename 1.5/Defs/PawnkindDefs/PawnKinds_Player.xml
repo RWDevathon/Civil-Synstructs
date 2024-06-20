@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Simpletons may be blank, drone, reprogrammable, or sapient -->
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_BlankBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Simpleton_Blank_Base</defName>
+		<label>simpleton blank</label>
+		<race>ABF_Thing_Synstruct_Simpleton</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_DroneBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Simpleton_Drone_Base</defName>
+		<label>simpleton drone</label>
+		<race>ABF_Thing_Synstruct_Simpleton</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_ReprogrammableBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Simpleton_Reprogrammable_Base</defName>
+		<label>simpleton drone</label>
+		<race>ABF_Thing_Synstruct_Simpleton</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_SapientBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Simpleton_Sapient_Base</defName>
+		<label>simpleton colonist</label>
+		<race>ABF_Thing_Synstruct_Simpleton</race>
+		<backstoryFiltersOverride Inherit="False">
+            <li>
+                <categories>
+                    <li>ABF_SpawnCategory_Synstruct_Sapient_Newboot</li>
+                </categories>
+            </li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+    <!-- Commoners may be blank, drone, reprogrammable, or sapient -->
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_BlankBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Commoner_Blank_Base</defName>
+		<label>commoner blank</label>
+		<race>ABF_Thing_Synstruct_Commoner</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_DroneBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Commoner_Drone_Base</defName>
+		<label>commoner drone</label>
+		<race>ABF_Thing_Synstruct_Commoner</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_ReprogrammableBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Commoner_Reprogrammable_Base</defName>
+		<label>commoner drone</label>
+		<race>ABF_Thing_Synstruct_Commoner</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_SapientBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Commoner_Sapient_Base</defName>
+		<label>commoner colonist</label>
+		<race>ABF_Thing_Synstruct_Commoner</race>
+		<backstoryFiltersOverride Inherit="False">
+            <li>
+                <categories>
+                    <li>ABF_SpawnCategory_Synstruct_Sapient_Newboot</li>
+                </categories>
+            </li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+    <!-- Stoics may be blank or sapient -->
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_BlankBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Stoic_Blank_Base</defName>
+		<label>stoic blank</label>
+		<race>ABF_Thing_Synstruct_Stoic</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_SapientBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Stoic_Sapient_Base</defName>
+		<label>stoic colonist</label>
+		<race>ABF_Thing_Synstruct_Stoic</race>
+        <forcedTraits>
+            <li>Ascetic</li>
+        </forcedTraits>
+		<backstoryFiltersOverride Inherit="False">
+            <li>
+                <categories>
+                    <li>ABF_SpawnCategory_Synstruct_Sapient_Newboot</li>
+                </categories>
+            </li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+    <!-- Socialites may be blank or sapient -->
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_BlankBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Socialite_Blank_Base</defName>
+		<label>socialite blank</label>
+		<race>ABF_Thing_Synstruct_Socialite</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_Player_SapientBase">
+		<defName>ABF_PawnKind_Synstruct_Player_Socialite_Sapient_Base</defName>
+		<label>socialite colonist</label>
+		<race>ABF_Thing_Synstruct_Socialite</race>
+		<backstoryFiltersOverride Inherit="False">
+            <li>
+                <categories>
+                    <li>ABF_SpawnCategory_Synstruct_Sapient_Newboot</li>
+                </categories>
+            </li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+</Defs>

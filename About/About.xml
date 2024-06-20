@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>ABF: Civil Synstructs</name>
+    <author>Killathon</author>
+    <supportedVersions>
+		<li>1.5</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>Killathon.ArtificialBeings.SynCore</packageId>
+            <displayName>ABF: Synstructs Core</displayName>
+            <!-- <steamWorkshopUrl></steamWorkshopUrl> -->
+            <downloadUrl>https://github.com/RWDevathon/Synstructs-Core</downloadUrl>
+        </li>
+    </modDependencies>
+    <packageId>Killathon.ArtificialBeings.SynCore.Civil</packageId>
+    <loadAfter>
+        <li>Killathon.ArtificialBeings.SynCore</li><!-- Dependency -->
+    </loadAfter>
+    <description><![CDATA[Synstructs have long been integrated into human societies, long ago first created as experiments into a new kind of citizenry. Their creators were surprised by how enthusiastically the infantile intelligences were to embrace humanity. Synstructs are not and never will be common in society, but civil synstructs are neither exotic nor unwelcome in most sufficiently advanced civilizations.
+
+Version <color=#FFD800>1.0.0</color>.
+    ]]></description>
+</ModMetaData>

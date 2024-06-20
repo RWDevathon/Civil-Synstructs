@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AlienRace.ThingDef_AlienRace ParentName="ABF_Thing_Synstruct_HumanlikeBase">
+		<defName>ABF_Thing_Synstruct_Stoic</defName>
+		<label>synstruct stoic</label>
+		<description>Synstruct stoics are rugged and hardy individuals with a propensity for adopting an almost monastic and spiritual existence. They are much more difficult to be fazed by difficult situations, and express a general disdain toward styles of living that are too "comfortable."\n\nStoics will, roughly one every two years, enter a deep contemplative state akin to a coma. Each stoic experiences it differently, and each refuses to share what exactly it is like for them.\n\nSynstruct stoics may be formatted into the following types:\n - Sapients</description>
+		<alienRace>
+			<graphicPaths> <!-- This may look silly, but there may one day be gendered graphics here. -->
+                <body>
+                    <path>Things/Pawns/Humanlikes/Stoic/body/Naked_None</path>
+                    <genderGraphics>
+                        <Male>Things/Pawns/Humanlikes/Stoic/body/Naked_None</Male>
+                        <Female>Things/Pawns/Humanlikes/Stoic/body/Naked_None</Female>
+                    </genderGraphics>
+                </body>
+                <head>
+                    <path>Things/Pawns/Humanlikes/Stoic/head/None</path>
+                    <genderGraphics>
+                        <Male>Things/Pawns/Humanlikes/Stoic/head/None</Male>
+                        <Female>Things/Pawns/Humanlikes/Stoic/head/None</Female>
+                    </genderGraphics>
+                </head>
+                <skinShader>Cutout</skinShader>
+                <apparel>
+                    <bodyTypeFallback>Male</bodyTypeFallback>
+                    <femaleBodyTypeFallback>Female</femaleBodyTypeFallback>
+                </apparel>
+            </graphicPaths>
+            <generalSettings>
+                <alienPartGenerator>
+					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
+                </alienPartGenerator>
+            </generalSettings>
+		</alienRace>
+		<statBases>
+			<MarketValue>1750</MarketValue>
+			<MoveSpeed>4.10</MoveSpeed>
+			<ComfyTemperatureMin>4</ComfyTemperatureMin>
+			<ComfyTemperatureMax>34</ComfyTemperatureMax>
+            <MentalBreakThreshold>0.08</MentalBreakThreshold>
+            <InjuryHealingFactor>0.85</InjuryHealingFactor>
+            <JoyFallRateFactor>0.66</JoyFallRateFactor>
+            <ABF_Stat_Artificial_ComplexityLimit>20</ABF_Stat_Artificial_ComplexityLimit>
+            <ABF_Stat_Artificial_SkillLimit>8</ABF_Stat_Artificial_SkillLimit>
+			<Mass>60</Mass>
+		</statBases>
+		<tools>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>9</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>9</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>ABF_Body_Synstruct_Civil</body>
+		</race>
+        <recipes>
+            <li>ABF_Recipe_Synstruct_InjectCoolant</li>
+            <li>ABF_Recipe_Synstruct_InjectLubricant</li>
+        </recipes>
+        <comps>
+            <li>
+                <compClass>ArtificialBeings.CompCoherenceNeed</compClass>
+            </li>
+        </comps>
+		<modExtensions>
+            <li Class="ArtificialBeings.ABF_ArtificialPawnExtension">
+                <canBeDrone>false</canBeDrone>
+                <canBeReprogrammable>false</canBeReprogrammable>
+                <blacklistedNeeds>
+                    <li>DrugDesire</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Hygiene</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
+                    <li>RoomSize</li>
+                    <li>Comfort</li>
+                </blacklistedNeeds>
+                <artificialNeeds>
+                    <li><key>ABF_Need_Synstruct_Coolant</key><value>1</value></li>
+                    <li><key>ABF_Need_Synstruct_Lubricant</key><value>1</value></li>
+                </artificialNeeds>
+                <medicineList>
+                    <li>ABF_Thing_Synstruct_RepairStimMinor</li>
+                    <li>ABF_Thing_Synstruct_RepairStim</li>
+                    <li>ABF_Thing_Synstruct_RepairStimUltra</li>
+                </medicineList>
+                <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
+                <hediffReplacements>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
+                </hediffReplacements>
+            </li>
+            <li Class="ArtificialBeings.ABF_SynstructExtension">
+                <playerSapientPawnKindDef>ABF_PawnKind_Synstruct_Player_Stoic_Sapient_Base</playerSapientPawnKindDef>
+            </li>
+		</modExtensions>
+		<butcherProducts>
+            <Steel>50</Steel>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</butcherProducts>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>
