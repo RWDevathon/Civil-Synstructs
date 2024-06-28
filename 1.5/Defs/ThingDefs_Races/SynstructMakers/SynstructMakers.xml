@@ -35,7 +35,7 @@
     <ThingDef ParentName="ABF_Thing_Synstruct_Generator_MakeableBase">
         <defName>ABF_Thing_Synstruct_CommonerGenerator</defName>
         <label>commoner</label>
-        <description>Synstruct simpletons are widely derided by everyone who meets them. Every aspect of them is designed to be as minimalistic and simple as possible - and not in a good way. Other sapient synstructs are especially hostile toward sapient simpletons, seeing them as an insult to their kind. Simpletons are usually created only out of desperation or cruelty. Sapient simpletons often embrace the wretchedness of their existence and either seek to prove themselves equals to others or go on paths of wrathful vengeance against their creators.\n\nSynstruct simpletons may be formatted into the following types:\n - Drones\n - Reprogrammable drones\n - Sapients</description>
+        <description>Synstruct commoners are, unsurprisingly, the most common model of synstruct in civil society. They are almost identical in capability and nature to humans - a fact sapient commoners pride themselves on. Like humans, commoners can be found taking almost any path through life, and excel at no one particular aspect of it.\n\nSynstruct commoners may be formatted into the following types:\n - Drones\n - Reprogrammable drones\n - Sapients</description>
         <graphicData>
             <texPath>Things/Pawns/Humanlikes/Commoner/CommonerExemplar</texPath>
             <graphicClass>Graphic_Single</graphicClass>
