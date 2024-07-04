@@ -4,7 +4,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="ABF_Thing_Synstruct_HumanlikeBase">
 		<defName>ABF_Thing_Synstruct_Socialite</defName>
 		<label>synstruct socialite</label>
-		<description>Synstruct socialites are gregarious and extroverted individuals who revel both in tightly knit groups and massive anonymous crowds. They are known for accumulating many friends and allies, and eagerly joining into rivalries if given the chance.\n\nSocialites have a strong personal desire to constantly undergo personal change, and regularly demand access to high end components to replace parts of themselves. Others often frown at their decadent waste.\n\nSynstruct socialites may be formatted into the following types:\n - Sapients</description>
+		<description>Synstruct socialites are designed with communal living in mind and have systems meticulously theorized around evolving social situations. Most socialites embrace their model's design philosophy and are gregarious and extroverted individuals who revel both in tightly knit groups and massive anonymous crowds. Like all sapient synstructs, though, outliers and renegades exist that undermine the otherwise noble reputation.\n\nSynstruct socialites may be formatted into the following types:\n - Sapients</description>
 		<alienRace>
 			<graphicPaths> <!-- This may look silly, but there may one day be gendered graphics here. -->
                 <body>

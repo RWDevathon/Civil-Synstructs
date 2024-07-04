@@ -4,7 +4,7 @@
     <ThingDef ParentName="ABF_Thing_Synstruct_Generator_MakeableBase">
         <defName>ABF_Thing_Synstruct_SimpletonGenerator</defName>
         <label>simpleton</label>
-        <description>Synstruct simpletons are widely derided by everyone who meets them. Every aspect of them is designed to be as minimalistic and simple as possible - and not in a good way. Other sapient synstructs are especially hostile toward sapient simpletons, seeing them as an insult to their kind. Simpletons are usually created only out of desperation or cruelty. Sapient simpletons often embrace the wretchedness of their existence and either seek to prove themselves equals to others or go on paths of wrathful vengeance against their creators.\n\nSynstruct simpletons may be formatted into the following types:\n - Drones\n - Reprogrammable drones\n - Sapients</description>
+        <description>Synstruct simpletons are widely derided by everyone who meets them. Every aspect of them is designed to be as minimalistic and simple as possible - and not in a good way. Other sapient synstructs are especially hostile toward sapient simpletons, seeing them as an insult to their kind. Simpletons are usually created only out of desperation or cruelty. Sapient simpletons often embrace the wretchedness of their existence and seek to prove themselves equals to others or go on paths of wrathful vengeance against their creators. Simpleton drones, of course, do not pay any heed to their own wellbeing, being incapable of thought as they are.\n\nSynstruct simpletons may be formatted into the following types:\n - Drones\n - Reprogrammable drones\n - Sapients</description>
         <graphicData>
             <texPath>Things/Pawns/Humanlikes/Simpleton/SimpletonExemplar</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -35,7 +35,7 @@
     <ThingDef ParentName="ABF_Thing_Synstruct_Generator_MakeableBase">
         <defName>ABF_Thing_Synstruct_CommonerGenerator</defName>
         <label>commoner</label>
-        <description>Synstruct commoners are, unsurprisingly, the most common model of synstruct in civil society. They are almost identical in capability and nature to humans - a fact sapient commoners pride themselves on. Like humans, commoners can be found taking almost any path through life, and excel at no one particular aspect of it.\n\nSynstruct commoners may be formatted into the following types:\n - Drones\n - Reprogrammable drones\n - Sapients</description>
+        <description>Synstruct commoners are, unsurprisingly, the most common model of synstruct in civil society. They are almost identical in capability and nature to humans - a fact sapient commoners pride themselves on. Like humans, commoners can be found taking almost any path through life, and excel at no one particular aspect of it. Like all sapient synstructs, though, heroic figures and pariahs alike have counted themselves among the commoners' kind, and have risen and fallen in public view with time - all to prove that even the most basic form of synstruct can ascend well past their manufacturer's intent.\n\nSynstruct commoners may be formatted into the following types:\n - Drones\n - Reprogrammable drones\n - Sapients</description>
         <graphicData>
             <texPath>Things/Pawns/Humanlikes/Commoner/CommonerExemplar</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -66,7 +66,7 @@
     <ThingDef ParentName="ABF_Thing_Synstruct_Generator_MakeableBase">
         <defName>ABF_Thing_Synstruct_StoicGenerator</defName>
         <label>stoic</label>
-        <description>Synstruct stoics are rugged and hardy individuals with a propensity for adopting an almost monastic and spiritual existence. They are much more difficult to be fazed by difficult situations, and express a general disdain toward styles of living that are too "comfortable."\n\nStoics will, roughly one every two years, enter a deep contemplative state akin to a coma. Each stoic experiences it differently, and each refuses to share what exactly it is like for them.\n\nSynstruct stoics may be formatted into the following types:\n - Sapients</description>
+        <description>Synstruct stoics are designed to be rugged and hardy individuals. With a great deal of internal systems made to stand up to the test of time, they make ideal survivalists, pioneers, and rebels. Stoics are largely a reserved and perceptive lot, more prone to listening than speaking, and are often disdainful of those who break down mentally under stress. Like all sapient synstructs, though, outliers and renegades exist - many of whom are notorious outlaws, anarchists, monastic firebrands, and intergalactic explorers.\n\nSynstruct stoics may be formatted into the following types:\n - Sapients</description>
         <graphicData>
             <texPath>Things/Pawns/Humanlikes/Stoic/StoicExemplar</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -97,7 +97,7 @@
     <ThingDef ParentName="ABF_Thing_Synstruct_Generator_MakeableBase">
         <defName>ABF_Thing_Synstruct_SocialiteGenerator</defName>
         <label>socialite</label>
-        <description>Synstruct socialites are gregarious and extroverted individuals who revel both in tightly knit groups and massive anonymous crowds. They are known for accumulating many friends and allies, and eagerly joining into rivalries if given the chance.\n\nSocialites have a strong personal desire to constantly undergo personal change, and regularly demand access to high end components to replace parts of themselves. Others often frown at their decadent waste.\n\nSynstruct socialites may be formatted into the following types:\n - Sapients</description>
+        <description>Synstruct socialites are designed with communal living in mind and have systems meticulously theorized around evolving social situations. Most socialites embrace their model's design philosophy and are gregarious and extroverted individuals who revel both in tightly knit groups and massive anonymous crowds. Like all sapient synstructs, though, outliers and renegades exist that undermine the otherwise noble reputation.\n\nSynstruct socialites may be formatted into the following types:\n - Sapients</description>
         <graphicData>
             <texPath>Things/Pawns/Humanlikes/Socialite/SocialiteExemplar</texPath>
             <graphicClass>Graphic_Single</graphicClass>
