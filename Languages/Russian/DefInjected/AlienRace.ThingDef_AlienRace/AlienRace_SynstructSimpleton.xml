@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_Simpleton.label>synstruct simpleton</ABF_Thing_Synstruct_Simpleton.label>
+  <ABF_Thing_Synstruct_Simpleton.description>Synstruct simpletons are widely derided by everyone who meets them. Every aspect of them is designed to be as minimalistic and simple as possible - and not in a good way. Other sapient synstructs are especially hostile toward sapient simpletons, seeing them as an insult to their kind. Simpletons are usually created only out of desperation or cruelty. Sapient simpletons often embrace the wretchedness of their existence and seek to prove themselves equals to others or go on paths of wrathful vengeance against their creators. Simpleton drones, of course, do not pay any heed to their own wellbeing, being incapable of thought as they are.\n\nSynstruct simpletons may be formatted into the following types:\n - Drones\n - Reprogrammable drones\n - Sapients</ABF_Thing_Synstruct_Simpleton.description>
+  <ABF_Thing_Synstruct_Simpleton.tools.0.label>right fist</ABF_Thing_Synstruct_Simpleton.tools.0.label>
+  <ABF_Thing_Synstruct_Simpleton.tools.1.label>left fist</ABF_Thing_Synstruct_Simpleton.tools.1.label>
+  <ABF_Thing_Synstruct_Simpleton.tools.2.label>head</ABF_Thing_Synstruct_Simpleton.tools.2.label>
+
+
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Scenario_Synstruct_Crashlanded.label>Crashlanding Synstructs</ABF_Scenario_Synstruct_Crashlanded.label>
+  <ABF_Scenario_Synstruct_Crashlanded.description>You completed system initialization right before breaking atmosphere in what seems to be an escape pod. Memory banks for recent data are blank, and there are no files indicating recent purpose, directive, or history. You are intact - that will suffice for now.</ABF_Scenario_Synstruct_Crashlanded.description>
+  <ABF_Scenario_Synstruct_Crashlanded.scenario.name>Crashlanding Synstructs</ABF_Scenario_Synstruct_Crashlanded.scenario.name>
+  <ABF_Scenario_Synstruct_Crashlanded.scenario.summary>Three crashlanded synstructs - the classic RimWorld experience with an artificial twist.</ABF_Scenario_Synstruct_Crashlanded.scenario.summary>
+  <ABF_Scenario_Synstruct_Crashlanded.scenario.description>You completed system initialization right before breaking atmosphere in what seems to be an escape pod. Memory banks for recent data are blank, and there are no files indicating recent purpose, directive, or history. You are intact - that will suffice for now.</ABF_Scenario_Synstruct_Crashlanded.scenario.description>
+  <ABF_Scenario_Synstruct_Crashlanded.scenario.parts.18.text>The crash site is marked by organic life and broken ship parts. A life-sustaining planet. If life can survive here, so can you. The mystery of why you have no memory at all and how you got here will have to go unanswered.</ABF_Scenario_Synstruct_Crashlanded.scenario.parts.18.text>
+
+
+</LanguageData>

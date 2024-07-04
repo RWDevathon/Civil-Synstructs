@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_Socialite.label>synstruct socialite</ABF_Thing_Synstruct_Socialite.label>
+  <ABF_Thing_Synstruct_Socialite.description>Synstruct socialites are designed with communal living in mind and have systems meticulously theorized around evolving social situations. Most socialites embrace their model's design philosophy and are gregarious and extroverted individuals who revel both in tightly knit groups and massive anonymous crowds. Like all sapient synstructs, though, outliers and renegades exist that undermine the otherwise noble reputation.\n\nSynstruct socialites may be formatted into the following types:\n - Sapients</ABF_Thing_Synstruct_Socialite.description>
+  <ABF_Thing_Synstruct_Socialite.tools.0.label>right fist</ABF_Thing_Synstruct_Socialite.tools.0.label>
+  <ABF_Thing_Synstruct_Socialite.tools.1.label>left fist</ABF_Thing_Synstruct_Socialite.tools.1.label>
+  <ABF_Thing_Synstruct_Socialite.tools.2.label>head</ABF_Thing_Synstruct_Socialite.tools.2.label>
+
+
+</LanguageData>

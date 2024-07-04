@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_Stoic.label>synstruct stoic</ABF_Thing_Synstruct_Stoic.label>
+  <ABF_Thing_Synstruct_Stoic.description>Synstruct stoics are designed to be rugged and hardy individuals. With a great deal of internal systems made to stand up to the test of time, they make ideal survivalists, pioneers, and rebels. Stoics are largely a reserved and perceptive lot, more prone to listening than speaking, and are often disdainful of those who break down mentally under stress. Like all sapient synstructs, though, outliers and renegades exist - many of whom are notorious outlaws, anarchists, monastic firebrands, and intergalactic explorers.\n\nSynstruct stoics may be formatted into the following types:\n - Sapients</ABF_Thing_Synstruct_Stoic.description>
+  <ABF_Thing_Synstruct_Stoic.tools.0.label>right fist</ABF_Thing_Synstruct_Stoic.tools.0.label>
+  <ABF_Thing_Synstruct_Stoic.tools.1.label>left fist</ABF_Thing_Synstruct_Stoic.tools.1.label>
+  <ABF_Thing_Synstruct_Stoic.tools.2.label>head</ABF_Thing_Synstruct_Stoic.tools.2.label>
+
+
+</LanguageData>
