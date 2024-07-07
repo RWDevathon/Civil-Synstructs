@@ -6,19 +6,19 @@
 		<label>synstruct stoic</label>
 		<description>Synstruct stoics are designed to be rugged and hardy individuals. With a great deal of internal systems made to stand up to the test of time, they make ideal survivalists, pioneers, and rebels. Stoics are largely a reserved and perceptive lot, more prone to listening than speaking, and are often disdainful of those who break down mentally under stress. Like all sapient synstructs, though, outliers and renegades exist - many of whom are notorious outlaws, anarchists, monastic firebrands, and intergalactic explorers.\n\nSynstruct stoics may be formatted into the following types:\n - Sapients</description>
 		<alienRace>
-			<graphicPaths> <!-- This may look silly, but there may one day be gendered graphics here. -->
+			<graphicPaths>
                 <body>
                     <path>Things/Pawns/Humanlikes/Stoic/body/Naked_None</path>
                     <genderGraphics>
-                        <Male>Things/Pawns/Humanlikes/Stoic/body/Naked_None</Male>
-                        <Female>Things/Pawns/Humanlikes/Stoic/body/Naked_None</Female>
+                        <Male>Things/Pawns/Humanlikes/Stoic/body/Naked_Male</Male>
+                        <Female>Things/Pawns/Humanlikes/Stoic/body/Naked_Female</Female>
                     </genderGraphics>
                 </body>
                 <head>
                     <path>Things/Pawns/Humanlikes/Stoic/head/None</path>
                     <genderGraphics>
-                        <Male>Things/Pawns/Humanlikes/Stoic/head/None</Male>
-                        <Female>Things/Pawns/Humanlikes/Stoic/head/None</Female>
+                        <Male>Things/Pawns/Humanlikes/Stoic/head/Male</Male>
+                        <Female>Things/Pawns/Humanlikes/Stoic/head/Female</Female>
                     </genderGraphics>
                 </head>
                 <skinShader>Cutout</skinShader>
@@ -30,6 +30,10 @@
             <generalSettings>
                 <alienPartGenerator>
 					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
+                    <bodyTypes Inherit="False">
+                        <li>Male</li>
+                        <li>Female</li>
+                    </bodyTypes>
                 </alienPartGenerator>
             </generalSettings>
 		</alienRace>

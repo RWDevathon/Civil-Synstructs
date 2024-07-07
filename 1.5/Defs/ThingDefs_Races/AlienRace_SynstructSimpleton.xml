@@ -6,19 +6,19 @@
 		<label>synstruct simpleton</label>
 		<description>Synstruct simpletons are widely derided by everyone who meets them. Every aspect of them is designed to be as minimalistic and simple as possible - and not in a good way. Other sapient synstructs are especially hostile toward sapient simpletons, seeing them as an insult to their kind. Simpletons are usually created only out of desperation or cruelty. Sapient simpletons often embrace the wretchedness of their existence and seek to prove themselves equals to others or go on paths of wrathful vengeance against their creators. Simpleton drones, of course, do not pay any heed to their own wellbeing, being incapable of thought as they are.\n\nSynstruct simpletons may be formatted into the following types:\n - Drones\n - Reprogrammable drones\n - Sapients</description>
 		<alienRace>
-			<graphicPaths> <!-- This may look silly, but there may one day be gendered graphics here. -->
+			<graphicPaths>
                 <body>
                     <path>Things/Pawns/Humanlikes/Simpleton/body/Naked_None</path>
                     <genderGraphics>
-                        <Male>Things/Pawns/Humanlikes/Simpleton/body/Naked_None</Male>
-                        <Female>Things/Pawns/Humanlikes/Simpleton/body/Naked_None</Female>
+                        <Male>Things/Pawns/Humanlikes/Simpleton/body/Naked_Male</Male>
+                        <Female>Things/Pawns/Humanlikes/Simpleton/body/Naked_Female</Female>
                     </genderGraphics>
                 </body>
                 <head>
                     <path>Things/Pawns/Humanlikes/Simpleton/head/None</path>
                     <genderGraphics>
-                        <Male>Things/Pawns/Humanlikes/Simpleton/head/None</Male>
-                        <Female>Things/Pawns/Humanlikes/Simpleton/head/None</Female>
+                        <Male>Things/Pawns/Humanlikes/Simpleton/head/Male</Male>
+                        <Female>Things/Pawns/Humanlikes/Simpleton/head/Female</Female>
                     </genderGraphics>
                 </head>
                 <skinShader>Cutout</skinShader>
@@ -30,6 +30,10 @@
             <generalSettings>
                 <alienPartGenerator>
 					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
+                    <bodyTypes Inherit="False">
+                        <li>Male</li>
+                        <li>Female</li>
+                    </bodyTypes>
                 </alienPartGenerator>
             </generalSettings>
 		</alienRace>

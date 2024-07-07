@@ -6,19 +6,19 @@
 		<label>synstruct socialite</label>
 		<description>Synstruct socialites are designed with communal living in mind and have systems meticulously theorized around evolving social situations. Most socialites embrace their model's design philosophy and are gregarious and extroverted individuals who revel both in tightly knit groups and massive anonymous crowds. Like all sapient synstructs, though, outliers and renegades exist that undermine the otherwise noble reputation.\n\nSynstruct socialites may be formatted into the following types:\n - Sapients</description>
 		<alienRace>
-			<graphicPaths> <!-- This may look silly, but there may one day be gendered graphics here. -->
+			<graphicPaths>
                 <body>
                     <path>Things/Pawns/Humanlikes/Socialite/body/Naked_None</path>
                     <genderGraphics>
-                        <Male>Things/Pawns/Humanlikes/Socialite/body/Naked_None</Male>
-                        <Female>Things/Pawns/Humanlikes/Socialite/body/Naked_None</Female>
+                        <Male>Things/Pawns/Humanlikes/Socialite/body/Naked_Male</Male>
+                        <Female>Things/Pawns/Humanlikes/Socialite/body/Naked_Female</Female>
                     </genderGraphics>
                 </body>
                 <head>
                     <path>Things/Pawns/Humanlikes/Socialite/head/None</path>
                     <genderGraphics>
-                        <Male>Things/Pawns/Humanlikes/Socialite/head/None</Male>
-                        <Female>Things/Pawns/Humanlikes/Socialite/head/None</Female>
+                        <Male>Things/Pawns/Humanlikes/Socialite/head/Male</Male>
+                        <Female>Things/Pawns/Humanlikes/Socialite/head/Female</Female>
                     </genderGraphics>
                 </head>
                 <skinShader>Cutout</skinShader>
@@ -30,6 +30,10 @@
             <generalSettings>
                 <alienPartGenerator>
 					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
+                    <bodyTypes Inherit="False">
+                        <li>Male</li>
+                        <li>Female</li>
+                    </bodyTypes>
                 </alienPartGenerator>
             </generalSettings>
 		</alienRace>

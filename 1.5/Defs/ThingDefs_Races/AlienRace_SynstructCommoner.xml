@@ -6,19 +6,19 @@
 		<label>synstruct commoner</label>
 		<description>Synstruct commoners are, unsurprisingly, the most common model of synstruct in civil society. They are almost identical in capability and nature to humans - a fact sapient commoners pride themselves on. Like humans, commoners can be found taking almost any path through life, and excel at no one particular aspect of it. Like all sapient synstructs, though, heroic figures and pariahs alike have counted themselves among the commoners' kind, and have risen and fallen in public view with time - all to prove that even the most basic form of synstruct can ascend well past their manufacturer's intent.\n\nSynstruct commoners may be formatted into the following types:\n - Drones\n - Reprogrammable drones\n - Sapients</description>
 		<alienRace>
-			<graphicPaths> <!-- This may look silly, but there may one day be gendered graphics here. -->
+			<graphicPaths>
                 <body>
                     <path>Things/Pawns/Humanlikes/Commoner/body/Naked_None</path>
                     <genderGraphics>
-                        <Male>Things/Pawns/Humanlikes/Commoner/body/Naked_None</Male>
-                        <Female>Things/Pawns/Humanlikes/Commoner/body/Naked_None</Female>
+                        <Male>Things/Pawns/Humanlikes/Commoner/body/Naked_Male</Male>
+                        <Female>Things/Pawns/Humanlikes/Commoner/body/Naked_Female</Female>
                     </genderGraphics>
                 </body>
                 <head>
                     <path>Things/Pawns/Humanlikes/Commoner/head/None</path>
                     <genderGraphics>
-                        <Male>Things/Pawns/Humanlikes/Commoner/head/None</Male>
-                        <Female>Things/Pawns/Humanlikes/Commoner/head/None</Female>
+                        <Male>Things/Pawns/Humanlikes/Commoner/head/Male</Male>
+                        <Female>Things/Pawns/Humanlikes/Commoner/head/Female</Female>
                     </genderGraphics>
                 </head>
                 <skinShader>Cutout</skinShader>
@@ -30,6 +30,10 @@
             <generalSettings>
                 <alienPartGenerator>
 					<headBodyPartDef>ABF_BodyPart_Synstruct_Head</headBodyPartDef>
+                    <bodyTypes Inherit="False">
+                        <li>Male</li>
+                        <li>Female</li>
+                    </bodyTypes>
                 </alienPartGenerator>
             </generalSettings>
 		</alienRace>
