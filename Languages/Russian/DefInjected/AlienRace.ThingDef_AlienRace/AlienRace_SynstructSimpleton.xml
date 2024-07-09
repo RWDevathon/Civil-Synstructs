@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_Simpleton.label>синтоид простак</ABF_Thing_Synstruct_Simpleton.label>
+  <ABF_Thing_Synstruct_Simpleton.description>Синтоиды простаки вызывают насмешки у всех, кто с ними встречается. Каждый их аспект разработан так, чтобы быть максимально минималистичным и простым — не в хорошем смысле. Другие синтоиды особенно враждебно относятся к синтоидам простакам, считая их оскорблением своего вида. Простаков обычно создают только от отчаяния или жестокости. Разумные простаки часто принимают убогость своего существования и стремятся доказать, что они равны другим, либо встают на путь гневной мести своим создателям. Простаки дроны, конечно, не обращают внимания на собственное благополучие, будучи неспособными к размышлениям.\n\nСинтоиды простаки могут быть отформатированы в следующие типы:\n — Дроны\n — Перепрограммируемые дроны\n — Синтоиды</ABF_Thing_Synstruct_Simpleton.description>
+  <ABF_Thing_Synstruct_Simpleton.tools.0.label>правый кулак</ABF_Thing_Synstruct_Simpleton.tools.0.label>
+  <ABF_Thing_Synstruct_Simpleton.tools.1.label>левый кулак</ABF_Thing_Synstruct_Simpleton.tools.1.label>
+  <ABF_Thing_Synstruct_Simpleton.tools.2.label>голова</ABF_Thing_Synstruct_Simpleton.tools.2.label>
+
+
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_Commoner.label>синтоид простолюдин</ABF_Thing_Synstruct_Commoner.label>
+  <ABF_Thing_Synstruct_Commoner.description>Синтоиды простолюдины — это, что неудивительно, самая распространённая модель синтоидов в гражданском обществе. По своим возможностям и характеру они почти идентичны людям — синтоиды простолюдины гордятся этим фактом. Как и люди, простолюдины могут выбрать практически любой путь в жизни, и не преуспевают ни в одном конкретном её аспекте. Тем не менее, как и все разумные синтоиды, героические личности и изгои, что причисляли себя к простолюдинам, возвышались и падали в глазах общественности с течением долгого времени — всё для того, чтобы доказать, что даже самая простая форма синтоида может возвыситься намного выше, чем было задумано её производителем.\n\nСинтоиды простолюдины могут быть отформатированы в следующие типы:\n — Дроны\n — Перепрограммируемые дроны\n — Синтоиды</ABF_Thing_Synstruct_Commoner.description>
+  <ABF_Thing_Synstruct_Commoner.tools.0.label>правый кулак</ABF_Thing_Synstruct_Commoner.tools.0.label>
+  <ABF_Thing_Synstruct_Commoner.tools.1.label>левый кулак</ABF_Thing_Synstruct_Commoner.tools.1.label>
+  <ABF_Thing_Synstruct_Commoner.tools.2.label>голова</ABF_Thing_Synstruct_Commoner.tools.2.label>
+
+
+</LanguageData>

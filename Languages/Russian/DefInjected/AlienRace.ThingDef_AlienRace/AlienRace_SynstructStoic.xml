@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_Stoic.label>стоический синтоид</ABF_Thing_Synstruct_Stoic.label>
+  <ABF_Thing_Synstruct_Stoic.description>Стоические синтоиды созданы для того, чтобы быть суровыми и выносливыми. Благодаря множеству внутренних систем, способных выдержать испытание временем, они идеально подходят для выживальщиков, первопроходцев и мятежников. Стоические синтоиды — в основном сдержанные и проницательные, больше склонные слушать, чем говорить, и часто с презрением относятся к тем, кто психически ломается под воздействием стресса. Тем не менее, как и во всех других разумных синтоидах, среди них есть отступники и ренегаты, многие из которых — отъявленные разбойники, анархисты, монахи-огнепоклонники и межгалактические исследователи.\n\nСтоические синтоиды могут быть отформатированы в следующие типы:\n — Синтоиды</ABF_Thing_Synstruct_Stoic.description>
+  <ABF_Thing_Synstruct_Stoic.tools.0.label>правый кулак</ABF_Thing_Synstruct_Stoic.tools.0.label>
+  <ABF_Thing_Synstruct_Stoic.tools.1.label>левый кулак</ABF_Thing_Synstruct_Stoic.tools.1.label>
+  <ABF_Thing_Synstruct_Stoic.tools.2.label>голова</ABF_Thing_Synstruct_Stoic.tools.2.label>
+
+
+</LanguageData>
