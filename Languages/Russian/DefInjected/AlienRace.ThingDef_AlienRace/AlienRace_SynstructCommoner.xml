@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ABF_Thing_Synstruct_Commoner.label>synstruct commoner</ABF_Thing_Synstruct_Commoner.label>
-  <ABF_Thing_Synstruct_Commoner.description>Synstruct commoners are, unsurprisingly, the most common model of synstruct in civil society. They are almost identical in capability and nature to humans - a fact sapient commoners pride themselves on. Like humans, commoners can be found taking almost any path through life, and excel at no one particular aspect of it. Like all sapient synstructs, though, heroic figures and pariahs alike have counted themselves among the commoners' kind, and have risen and fallen in public view with time - all to prove that even the most basic form of synstruct can ascend well past their manufacturer's intent.\n\nSynstruct commoners may be formatted into the following types:\n - Drones\n - Reprogrammable drones\n - Sapients</ABF_Thing_Synstruct_Commoner.description>
-  <ABF_Thing_Synstruct_Commoner.tools.0.label>right fist</ABF_Thing_Synstruct_Commoner.tools.0.label>
-  <ABF_Thing_Synstruct_Commoner.tools.1.label>left fist</ABF_Thing_Synstruct_Commoner.tools.1.label>
-  <ABF_Thing_Synstruct_Commoner.tools.2.label>head</ABF_Thing_Synstruct_Commoner.tools.2.label>
+  <ABF_Thing_Synstruct_Commoner.label>синтоид простолюдин</ABF_Thing_Synstruct_Commoner.label>
+  <ABF_Thing_Synstruct_Commoner.description>Синтоиды простолюдины — это, что неудивительно, самая распространённая модель синтоидов в гражданском обществе. По своим возможностям и характеру они почти идентичны людям — синтоиды простолюдины гордятся этим фактом. Как и люди, простолюдины могут выбрать практически любой путь в жизни, и не преуспевают ни в одном конкретном её аспекте. Тем не менее, как и все разумные синтоиды, героические личности и изгои, что причисляли себя к простолюдинам, возвышались и падали в глазах общественности с течением долгого времени — всё для того, чтобы доказать, что даже самая простая форма синтоида может возвыситься намного выше, чем было задумано её производителем.\n\nСинтоиды простолюдины могут быть отформатированы в следующие типы:\n — Дроны\n — Перепрограммируемые дроны\n — Синтоиды</ABF_Thing_Synstruct_Commoner.description>
+  <ABF_Thing_Synstruct_Commoner.tools.0.label>правый кулак</ABF_Thing_Synstruct_Commoner.tools.0.label>
+  <ABF_Thing_Synstruct_Commoner.tools.1.label>левый кулак</ABF_Thing_Synstruct_Commoner.tools.1.label>
+  <ABF_Thing_Synstruct_Commoner.tools.2.label>голова</ABF_Thing_Synstruct_Commoner.tools.2.label>
 
 
 </LanguageData>

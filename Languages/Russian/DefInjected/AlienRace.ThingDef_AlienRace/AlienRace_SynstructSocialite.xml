@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ABF_Thing_Synstruct_Socialite.label>synstruct socialite</ABF_Thing_Synstruct_Socialite.label>
-  <ABF_Thing_Synstruct_Socialite.description>Synstruct socialites are designed with communal living in mind and have systems meticulously theorized around evolving social situations. Most socialites embrace their model's design philosophy and are gregarious and extroverted individuals who revel both in tightly knit groups and massive anonymous crowds. Like all sapient synstructs, though, outliers and renegades exist that undermine the otherwise noble reputation.\n\nSynstruct socialites may be formatted into the following types:\n - Sapients</ABF_Thing_Synstruct_Socialite.description>
-  <ABF_Thing_Synstruct_Socialite.tools.0.label>right fist</ABF_Thing_Synstruct_Socialite.tools.0.label>
-  <ABF_Thing_Synstruct_Socialite.tools.1.label>left fist</ABF_Thing_Synstruct_Socialite.tools.1.label>
-  <ABF_Thing_Synstruct_Socialite.tools.2.label>head</ABF_Thing_Synstruct_Socialite.tools.2.label>
+  <ABF_Thing_Synstruct_Socialite.label>светский синтоид</ABF_Thing_Synstruct_Socialite.label>
+  <ABF_Thing_Synstruct_Socialite.description>Светские синтоиды — разработаны с учётом особенностей жизни в обществе и имеют тщательно продуманные системы, с учётом меняющихся социальных ситуаций. Большинство светских синтоидов принимают философию дизайна своей модели и являются общительными и экстравертными личностями, наслаждающимися как тесно сплочёнными группами, так и огромными анонимными толпами. Тем не менее, как и у всех синтоидов, существуют отступники и ренегаты, которые подрывают столь благородную репутацию.\n\nСветские синтоиды могут быть отформатированы в следующие типы:\n — Синтоиды</ABF_Thing_Synstruct_Socialite.description>
+  <ABF_Thing_Synstruct_Socialite.tools.0.label>правый кулак</ABF_Thing_Synstruct_Socialite.tools.0.label>
+  <ABF_Thing_Synstruct_Socialite.tools.1.label>левый кулак</ABF_Thing_Synstruct_Socialite.tools.1.label>
+  <ABF_Thing_Synstruct_Socialite.tools.2.label>голова</ABF_Thing_Synstruct_Socialite.tools.2.label>
 
 
 </LanguageData>
