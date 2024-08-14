@@ -47,6 +47,8 @@
             <JoyFallRateFactor>0.66</JoyFallRateFactor>
             <ABF_Stat_Artificial_ComplexityLimit>20</ABF_Stat_Artificial_ComplexityLimit>
             <ABF_Stat_Artificial_SkillLimit>8</ABF_Stat_Artificial_SkillLimit>
+            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>1.15</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
+            <MaxNutrition>1.5</MaxNutrition>
 			<Mass>60</Mass>
 		</statBases>
 		<tools>

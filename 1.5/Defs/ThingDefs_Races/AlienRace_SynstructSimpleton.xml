@@ -47,6 +47,7 @@
             <InjuryHealingFactor>0.66</InjuryHealingFactor>
             <ABF_Stat_Artificial_ComplexityLimit>15</ABF_Stat_Artificial_ComplexityLimit>
             <ABF_Stat_Artificial_SkillLimit>6</ABF_Stat_Artificial_SkillLimit>
+            <MaxNutrition>0.5</MaxNutrition>
             <PawnBeauty>-2</PawnBeauty>
 			<Mass>60</Mass>
 		</statBases>
@@ -100,7 +101,7 @@
 		<race>
 			<body>ABF_Body_Synstruct_Civil</body>
 			<baseHealthScale>0.6</baseHealthScale>
-			<baseHungerRate>0.9</baseHungerRate>
+            <baseHungerRate>0.5</baseHungerRate>
 			<baseBodySize>0.9</baseBodySize>
 		</race>
         <recipes>
