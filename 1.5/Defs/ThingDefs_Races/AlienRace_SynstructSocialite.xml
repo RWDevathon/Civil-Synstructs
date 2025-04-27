@@ -101,7 +101,7 @@
 		</tools>
 		<race>
 			<body>ABF_Body_Synstruct_Civil</body>
-            <baseHungerRate>2</baseHungerRate>
+            <baseHungerRate>1.25</baseHungerRate>
 		</race>
         <recipes>
             <li>ABF_Recipe_Synstruct_InjectCoolant</li>

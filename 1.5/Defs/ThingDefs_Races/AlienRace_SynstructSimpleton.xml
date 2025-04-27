@@ -101,7 +101,7 @@
 		<race>
 			<body>ABF_Body_Synstruct_Civil</body>
 			<baseHealthScale>0.6</baseHealthScale>
-            <baseHungerRate>0.5</baseHungerRate>
+            <baseHungerRate>0.3125</baseHungerRate>
 			<baseBodySize>0.9</baseBodySize>
 		</race>
         <recipes>
