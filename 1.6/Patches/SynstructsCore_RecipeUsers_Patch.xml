@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <!-- Simpletons, Commoners, Stoics, and Socialites use standard Synstruct recipes -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[@Name="ABF_Recipe_Synstruct_SurgeryBase"]/recipeUsers</xpath>
+        <value>
+            <li>ABF_Thing_Synstruct_Simpleton</li>
+            <li>ABF_Thing_Synstruct_Commoner</li>
+            <li>ABF_Thing_Synstruct_Stoic</li>
+            <li>ABF_Thing_Synstruct_Socialite</li>
+        </value>
+    </Operation>
+
+</Patch>
