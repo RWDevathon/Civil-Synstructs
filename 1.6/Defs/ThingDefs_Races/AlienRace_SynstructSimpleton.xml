@@ -135,9 +135,23 @@
                     <li>Beauty</li>
                 </blacklistedDroneNeeds>
                 <artificialNeeds>
-                    <li><key>ABF_Need_Synstruct_Coolant</key><value>0.5</value></li>
-                    <li><key>ABF_Need_Synstruct_Lubricant</key><value>0.5</value></li>
-                    <li><key>ABF_Need_Synstruct_Energy</key><value>200</value></li>
+                    <li>
+                        <key>ABF_Need_Synstruct_Coolant</key>
+                        <value>
+                            <maximumCapacity>3</maximumCapacity>
+                            <fallRatePerDay>0.05</fallRatePerDay>
+                            <fallRateIsPercentage>false</fallRateIsPercentage>
+                        </value>
+                    </li>
+                    <li>
+                        <key>ABF_Need_Synstruct_Lubricant</key>
+                        <value>
+                            <maximumCapacity>4.5</maximumCapacity>
+                            <fallRatePerDay>0.075</fallRatePerDay>
+                            <fallRateIsPercentage>false</fallRateIsPercentage>
+                        </value>
+                    </li>
+                    <li><key>ABF_Need_Synstruct_Energy</key><value></value></li>
                 </artificialNeeds>
                 <medicineList>
                     <li>ABF_Thing_Synstruct_RepairStimMinor</li>

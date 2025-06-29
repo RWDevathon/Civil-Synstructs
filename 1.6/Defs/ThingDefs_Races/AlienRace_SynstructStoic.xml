@@ -124,9 +124,23 @@
                     <li>Comfort</li>
                 </blacklistedNeeds>
                 <artificialNeeds>
-                    <li><key>ABF_Need_Synstruct_Coolant</key><value>1</value></li>
-                    <li><key>ABF_Need_Synstruct_Lubricant</key><value>1</value></li>
-                    <li><key>ABF_Need_Synstruct_Energy</key><value>200</value></li>
+                    <li>
+                        <key>ABF_Need_Synstruct_Coolant</key>
+                        <value>
+                            <maximumCapacity>6</maximumCapacity>
+                            <fallRatePerDay>0.1</fallRatePerDay>
+                            <fallRateIsPercentage>false</fallRateIsPercentage>
+                        </value>
+                    </li>
+                    <li>
+                        <key>ABF_Need_Synstruct_Lubricant</key>
+                        <value>
+                            <maximumCapacity>9</maximumCapacity>
+                            <fallRatePerDay>0.15</fallRatePerDay>
+                            <fallRateIsPercentage>false</fallRateIsPercentage>
+                        </value>
+                    </li>
+                    <li><key>ABF_Need_Synstruct_Energy</key><value></value></li>
                 </artificialNeeds>
                 <medicineList>
                     <li>ABF_Thing_Synstruct_RepairStimMinor</li>
