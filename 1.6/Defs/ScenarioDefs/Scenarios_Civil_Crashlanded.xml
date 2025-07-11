@@ -90,8 +90,8 @@
 				</li>
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
-					<thingDef>Pemmican</thingDef>
-					<count>120</count>
+					<thingDef>Chemfuel</thingDef>
+					<count>90</count>
 				</li>
 				<!-- Scatter some things anywhere -->
 				<li Class="ScenPart_ScatterThingsAnywhere">
