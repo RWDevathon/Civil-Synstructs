@@ -18,8 +18,6 @@
         <costList>
             <Steel>100</Steel>
             <Plasteel>40</Plasteel>
-            <ABF_Thing_Synstruct_CoolantPack>1</ABF_Thing_Synstruct_CoolantPack>
-            <ABF_Thing_Synstruct_LubricantPack>1</ABF_Thing_Synstruct_LubricantPack>
             <Gold>1</Gold>
             <ComponentIndustrial>10</ComponentIndustrial>
             <ComponentSpacer>1</ComponentSpacer>
@@ -49,8 +47,6 @@
         <costList>
             <Steel>140</Steel>
             <Plasteel>70</Plasteel>
-            <ABF_Thing_Synstruct_CoolantPack>1</ABF_Thing_Synstruct_CoolantPack>
-            <ABF_Thing_Synstruct_LubricantPack>1</ABF_Thing_Synstruct_LubricantPack>
             <Gold>2</Gold>
             <ComponentIndustrial>16</ComponentIndustrial>
             <ComponentSpacer>4</ComponentSpacer>
@@ -80,8 +76,6 @@
         <costList>
             <Steel>140</Steel>
             <Plasteel>70</Plasteel>
-            <ABF_Thing_Synstruct_CoolantPack>1</ABF_Thing_Synstruct_CoolantPack>
-            <ABF_Thing_Synstruct_LubricantPack>1</ABF_Thing_Synstruct_LubricantPack>
             <Gold>2</Gold>
             <ComponentIndustrial>16</ComponentIndustrial>
             <ComponentSpacer>4</ComponentSpacer>
@@ -111,8 +105,6 @@
         <costList>
             <Steel>140</Steel>
             <Plasteel>70</Plasteel>
-            <ABF_Thing_Synstruct_CoolantPack>1</ABF_Thing_Synstruct_CoolantPack>
-            <ABF_Thing_Synstruct_LubricantPack>1</ABF_Thing_Synstruct_LubricantPack>
             <Gold>2</Gold>
             <ComponentIndustrial>16</ComponentIndustrial>
             <ComponentSpacer>4</ComponentSpacer>

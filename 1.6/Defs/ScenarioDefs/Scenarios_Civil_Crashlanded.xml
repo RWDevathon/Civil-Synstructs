@@ -36,23 +36,13 @@
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>ABF_Thing_Synstruct_CoolantPack</thingDef>
-					<count>10</count>
-				</li>
-				<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>ABF_Thing_Synstruct_LubricantPack</thingDef>
-					<count>20</count>
-				</li>
-				<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
 					<thingDef>ABF_Thing_Synstruct_RepairStim</thingDef>
 					<count>6</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>ComponentIndustrial</thingDef>
-					<count>20</count>
+					<count>30</count>
 				</li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
